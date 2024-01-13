@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:background="@color/white"
+    android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Выберите маркер" />
+
+        <ImageButton
+            android:id="@+id/marker1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/marker10"/>
+
+        <ImageButton
+            android:id="@+id/marker2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/marker1"/>
+
+        <ImageButton
+            android:id="@+id/marker3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/marker2"/>
+
+        <ImageButton
+            android:id="@+id/marker4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/marker3"/>
+
+        <ImageButton
+            android:id="@+id/marker5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="126dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/marker4"/>
+
+        <ImageButton
+            android:id="@+id/marker6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/marker5"/>
+
+        <ImageButton
+            android:id="@+id/marker7"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="186dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/marker6"/>
+
+        <ImageButton
+            android:id="@+id/marker8"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="216dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/marker7"/>
+
+        <ImageButton
+            android:id="@+id/marker9"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="246dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/marker8"/>
+
+        <ImageButton
+            android:id="@+id/marker10"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/marker9" />
+
+</androidx.cardview.widget.CardView>

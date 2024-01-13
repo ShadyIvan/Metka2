@@ -1,0 +1,47 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+main_Activity <|-- Google_Maps
+LoginScreen <|-- Splash_Screen
+LoginScreen <|-- regacc
+regacc <|-- LoginScreen
+LoginScreen <|- main_Activity
+newgroup <|-- main_Activity
+main_Activity <|-- newgroup
+main_Activity <|- infomarker
+main_Activity <|-- markeroption
+markeroption <|- markericon
+searchgroup <|- newgroup
+deletegroup <|-- newgroup
+namegroup <|-- newgroup
+
+abstract class Google_Maps
+
+class main_Activity {
+activity_main.xml
+}
+
+class Splash_Screen{
+    splash_screen.xml
+}
+
+class LoginScreen{
+ loginsceren.xml
+}
+
+class regacc{
+ registracia.xml
+}
+
+class newgroup{
+    dialog.xml
+}
+
+abstract class namegroup
+abstract class infomarker
+abstract class markeroption
+abstract class searchgroup
+abstract class markericon
+abstract class deletegroup
+
+@enduml

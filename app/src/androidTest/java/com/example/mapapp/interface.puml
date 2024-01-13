@@ -1,0 +1,81 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+marker_group <|-- mainActivity
+mainActivity <|-- marker_group
+users <|-left- regacc
+LoginScreen <|-left- users
+dataGroup <|-left- LoginScreen
+mainActivity <|-left- dataGroup
+group <|-- newgroup
+group_users <|-- newgroup
+newgroup <|-- dataGroup
+marker_group <|-left- group_users
+marker_group <|-- group
+
+infomarker <|-- marker_group
+marker_group <|-- infomarker
+
+class newgroup {
+String login
+String password
+String nickname
+}
+
+class infomarker {
+String like
+String dislike
+String title
+String snippet
+String nickname
+}
+
+abstract class group{
+name groups
+}
+
+abstract class group_users{
+nickname users
+}
+
+abstract class marker_group{
+Markers все маркеры
+Admin nickname
+Password password
+Namegroup namegroup
+}
+abstract class users{
+Login login
+Password password
+Nickname nickname
+}
+
+class dataGroup{
+String nickname
+}
+
+class regacc {
+String login
+String password
+String nickname
+}
+
+class LoginScreen {
+String login
+String password
+String nickname
+}
+
+class mainActivity {
+Marker title
+Marker snippet
+Marker id
+Marker group
+Marker icon
+Marker lat
+Marker lng
+Marker nickname
+}
+
+@enduml

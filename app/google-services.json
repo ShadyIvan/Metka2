@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "649248987181",
+    "project_id": "fir-fe05d",
+    "storage_bucket": "fir-fe05d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649248987181:android:bb4e6090edf569143900a4",
+        "android_client_info": {
+          "package_name": "com.example.mapapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdLNagMXsc3oUJh8l8ERcud959aVqKEi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649248987181:android:c1d36547cf986ae93900a4",
+        "android_client_info": {
+          "package_name": "google.map"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdLNagMXsc3oUJh8l8ERcud959aVqKEi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
